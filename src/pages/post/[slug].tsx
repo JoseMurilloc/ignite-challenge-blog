@@ -73,7 +73,9 @@ export default function Post({ post }: PostProps): JSX.Element {
 
   return (
     <>
-      <Header />
+      <div style={{ paddingTop: '5.40rem' }}>
+        <Header />
+      </div>
 
       <section
         className={styles.banner}
